@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="11.0.0" />
+    <PackageReference Include="dotnet-stop-words" Version="1.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Repository\SmartApartment.Repository.csproj" />
+    <ProjectReference Include="..\SmartApartment.Application.Contract\SmartApartment.Application.Contract.csproj" />
+    <ProjectReference Include="..\SmartApartment.Domain\SmartApartment.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
